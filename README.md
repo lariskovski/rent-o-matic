@@ -1,2 +1,6 @@
-# rent-o-matic
-Clean Architecture demo project
+# Rent-O-Matic
+
+Clean Architecture demo project.
+
+
+ pytest -svv --cov=rentomatic --cov-report=term-missing
