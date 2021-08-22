@@ -12,6 +12,8 @@ pytest-cov = "*"
 watchdog = "*"
 flake8 = "*"
 Sphinx = "*"
+flask = "*"
+pytest-flask = "*"
 
 [dev-packages]
 
