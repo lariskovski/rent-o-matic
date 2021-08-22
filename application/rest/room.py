@@ -51,12 +51,3 @@ def room_list():
                     status=200,
                     )
 
-
-def room_list():
-    repo = MemRepo(rooms)
-    result = room_list_use_case(repo)
-    return Response(
-                    json.dumps(result, cls=RoomJsonEncoder),
-                    mimetype="application/json",
-                    status=200,
-                    )
